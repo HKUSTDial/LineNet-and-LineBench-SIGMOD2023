@@ -19,7 +19,7 @@ Furthermore, we judiciously select a small set of most representative triplets t
 
 ## Deploy LineNet
 
-Suppose we have a well-trained \sys that can map a line chart image $\mathbf{V}$ to an  embedding vector $\mathbf{E}$ in the embedding space. Naturally, we can use the squared Euclidean distance between $\mathbf{E}_i$ and $\mathbf{E}_j$ in the embedding space to compute the similarity between line charts $\mathbf{V}_i$ and $\mathbf{V}_j$, which is defined as:~$\dist(\mathcal{F}(\mathbf{V}_i), \mathcal{F}(\mathbf{V}_j)) = \dist(\mathbf{E}_i, \mathbf{E}_j) = ||\mathbf{E}_i - \mathbf{E}_j||_2^2$.
+Suppose we have a well-trained \sys that can map a line chart image $\mathbf{V}$ to an  embedding vector $\mathbf{E}$ in the embedding space. Naturally, we can use the squared Euclidean distance between $\mathbf{E}_i$ and $\mathbf{E}_j$ in the embedding space to compute the similarity between line charts $\mathbf{V}_i$ and $\mathbf{V}_j$, which is defined as:~$\mathbf{dist}(\mathcal{F}(\mathbf{V}_i), \mathcal{F}(\mathbf{V}_j)) = \dist(\mathbf{E}_i, \mathbf{E}_j) = ||\mathbf{E}_i - \mathbf{E}_j||_2^2$.
 
 Therefore, once the embedding space is well-prepared, the top-$k$ similarity search of line chart images problem can be  tackled using $k$ nearest neighbor search algorithms in the embedding space.
 
