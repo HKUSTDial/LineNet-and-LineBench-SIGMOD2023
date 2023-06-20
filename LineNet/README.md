@@ -1,6 +1,6 @@
-#LineNet
+# LineNet
 
-##How to run LineNet:
+## How to run LineNet:
 
 1.Place dataset under ./datasets folder.
 
