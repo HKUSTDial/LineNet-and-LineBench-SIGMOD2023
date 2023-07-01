@@ -31,7 +31,7 @@ Please refer to our [paper](https://luoyuyu.vip/files/SIGMOD2023-LineNet.pdf) at
 Please refer to the folder **LineNet** for details.
 
 
-# Citing ncNet
+# Citing LineNet
 
 ```bibTeX
 @article{10.1145/3588942,
@@ -54,4 +54,4 @@ keywords = {similarity search, line charts, triplets selection, learned represen
 ```
 
 # Contact
-If you have any questions, feel free contact Yuyu Luo (luoyy18 [AT] mails.tsinghua.edu.cn).
+If you have any questions, feel free to contact Yuyu Luo (luoyy18 [AT] mails.tsinghua.edu.cn).
