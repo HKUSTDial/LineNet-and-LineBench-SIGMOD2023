@@ -5,7 +5,7 @@
 ```
 conda create -n linenet python=3.8
 conda activate linenet
-pip install -r path-to-this-dir/requirement.txt
+pip install -r path-to-this-dir/requirements.txt
 ```
 
 ## How to run LineNet:
