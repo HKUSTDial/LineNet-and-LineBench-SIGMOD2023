@@ -1,5 +1,13 @@
 # LineNet
 
+## How to prepare python environment for LineNet:
+
+```
+conda create -n linenet python=3.8
+conda activate linenet
+pip install -r path-to-this-dir/requirement.txt
+```
+
 ## How to run LineNet:
 
 1.Place dataset under ./datasets folder.
