@@ -51,9 +51,10 @@ class SwinDataSet(Dataset):
         self.pics=[]
         self.series=[]
         for img in imgs:
-            item=Image.open(d+'/'+img)
             if img[-4:]!='.png':
                 continue
+            item=Image.open(d+'/'+img)
+            
             if config.MODEL.SWIN.IN_CHANS==1:
                 item=item.convert('L')
             else:
