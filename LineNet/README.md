@@ -5,7 +5,15 @@
 ```
 conda create -n linenet python=3.8
 conda activate linenet
-pip install -r path-to-this-dir/requirements.txt
+pip install -r <path-to-this-dir>/requirements.txt
+```
+
+In case you are using recent hardware with cuda version >= 12.1, use the following instructions instead:
+
+```
+conda create -n linenet python=3.8
+conda activate linenet
+pip install -r <path-to-this-dir>/requirements_cu12.txt
 ```
 
 ## How to run LineNet:
